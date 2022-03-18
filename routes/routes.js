@@ -5,7 +5,7 @@ const router = express.Router()
 module.exports = router;
 
 
-const Model = require('../../models/model')
+const Model = require('../models/model')
 
 // GET method that get all the data of restaurants
 router.get('/getAll', async(req,res) =>{

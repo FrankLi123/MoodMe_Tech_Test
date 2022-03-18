@@ -7,6 +7,7 @@ const mongoString = process.env.DATABASE_URL
 const routes = require('./routes/routes');
 
 mongoose.connect(mongoString);
+
 const database = mongoose.connection
 
 
